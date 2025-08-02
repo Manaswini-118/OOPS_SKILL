@@ -1,11 +1,10 @@
 package programs;
-import java.util.ArrayList;
-class Autoboxing {
+
+public class Autoboxing {
 	public static void main(String[] args) {
-		int x=10;
-		Integer obj=x;
-		System.out.println("primitivevalue of integer is " + x);
-		System.out.println("autoboxing obj is" + obj);
+		int num = 10;
+Integer obj = num;
+System.out.println(obj);
 	}
 
 }
